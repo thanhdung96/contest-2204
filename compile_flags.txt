@@ -1,0 +1,9 @@
+-Wall
+-Wextra
+-fexceptions
+-std=c11
+-m64
+-g
+-I
+include
+
