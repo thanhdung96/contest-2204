@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99 -Iinclude
+CFLAGS = -Wall -Wextra -std=c11 -Iinclude
 
 TARGET = bin/main
 SRC = main.c src/problem_a.c
