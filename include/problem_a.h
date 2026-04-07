@@ -1,10 +1,10 @@
 #pragma once
 
 // prepare for excercise run
-void prepare();
+int prepare();
 
 // run excercise
-void run();
+int run();
 
 // clean up excercise
 void clean();
