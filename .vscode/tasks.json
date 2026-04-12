@@ -1,0 +1,24 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "make clean"
+        },
+        {
+            "label": "Build release",
+            "type": "shell",
+            "command": "make",
+            "dependsOn": "Clean"
+        },
+        {
+            "label": "Build debug",
+            "type": "shell",
+            "command": "make debug",
+            "dependsOn": "Clean"
+        }
+    ]
+}

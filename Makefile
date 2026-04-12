@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -Iinclude
 TARGET = bin/main
-SRC = main.c src/file_helper.c src/problem_a.c
+SRC = main.c src/file_helper.c src/problem_b.c
 
 all: $(TARGET)
 
