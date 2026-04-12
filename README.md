@@ -22,7 +22,33 @@ Each test case consists of two lines:
 - the first line contains a single integer n (2≤n≤50) — the number of students;
 - the second line contains s — a sequence of n characters L and R. The first character of the sequence is R, and the last is L. 
 
-OUPUT
+OUPUT:
 
 For each test case, print one integer — the number of students who will receive the ball at least once during the described process.
 
+
+## Problem B: Right Maximum
+
+You are given an array a consisting of n integers.
+
+While the array is not empty, an operation is performed consisting of two steps:
+
+- first, the maximum element in the array is chosen (if there are multiple maximum elements, the rightmost maximum is chosen);
+- then, all elements after the chosen element, including it, are removed from the array. 
+
+Your task is to calculate the number operations that will be performed before the array becomes empty.
+
+INPUT:
+
+The first line contains one integer t (1≤t≤10^4) — the number of test cases.
+
+Each test case consists of two lines:
+
+- the first line contains one integer n (2≤n≤2⋅10^5);
+- the second line contains n integers a1,a2,…,an (1≤ai≤n). 
+
+Additional constraint on the input: the sum of n over all test cases does not exceed 2⋅10^5.
+
+OUTPUT:
+
+For each test case, print one integer — the number of operations that will be performed.

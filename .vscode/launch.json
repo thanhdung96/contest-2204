@@ -1,0 +1,40 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Launch (gdb)",
+            "program": "./bin/main",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "Build release"
+        },
+        {
+            "type": "gdb",
+            "request": "launch",
+            "name": "Debug (gdb)",
+            "program": "./bin/main",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "Build debug"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch (LLVM)",
+            "program": "./bin/main",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "Build release"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug (LLVM)",
+            "program": "./bin/main",
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": "Build debug"
+        },
+    ]
+}
